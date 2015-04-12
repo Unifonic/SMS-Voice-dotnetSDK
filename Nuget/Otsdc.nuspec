@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Otsdc</id>
+    <version>1.0.0</version>
+	<title>Otsdc</title>
+    <authors>Otsdc</authors>
+    <licenseUrl>https://github.com/otsdc/ots-csharp/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/otsdc/ots-csharp</projectUrl>
+    <iconUrl>https://avatars1.githubusercontent.com/u/7256989</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A library for sending sms messages, making calls and sending emails through OTS Platform</description>
+    <copyright>Copyright 2015</copyright>
+    <tags>sms voice call telephony phone otsdc email</tags>
+    <dependencies>
+     <dependency id="RestSharp" version="105.0.1" />
+    </dependencies>
+	<releaseNotes>First Release</releaseNotes>
+  </metadata>
+  	<files>
+        <file src="..\Otsdc.API\bin\Release\Otsdc.API.dll" target="lib\net45\Otsdc.API.dll" />
+		<file src="..\Otsdc.API\bin\Release\Otsdc.API.xml" target="lib\net45\Otsdc.API.xml" />
+    </files>
+</package>

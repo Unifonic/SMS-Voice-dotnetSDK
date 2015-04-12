@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Otsdc.API/bin
+/Otsdc.API/obj
+*.DotSettings
+*.user
+/Otsdc.Sample/bin
+/Otsdc.Sample/obj
+/packages/Moq.4.2.1502.0911
+/packages/NUnit.2.6.4
+/packages/RestSharp.105.0.1
+/Tests/Otsdc.API.Tests/obj
+/Tests/Otsdc.API.Tests/bin
+*.suo
