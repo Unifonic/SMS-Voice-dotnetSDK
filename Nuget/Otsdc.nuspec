@@ -3,10 +3,10 @@
   <metadata>
     <id>Otsdc</id>
     <version>1.0.0</version>
-	<title>Otsdc</title>
-    <authors>Otsdc</authors>
-    <licenseUrl>https://github.com/otsdc/ots-csharp/blob/master/LICENSE.txt</licenseUrl>
-    <projectUrl>https://github.com/otsdc/ots-csharp</projectUrl>
+	<title>OTSDotnetSDK</title>
+    <authors>OTS</authors>
+    <licenseUrl>https://github.com/otsdc/OTSDotnetSDK/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/otsdc/OTSDotnetSDK</projectUrl>
     <iconUrl>https://avatars1.githubusercontent.com/u/7256989</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A library for sending sms messages, making calls and sending emails through OTS Platform</description>
