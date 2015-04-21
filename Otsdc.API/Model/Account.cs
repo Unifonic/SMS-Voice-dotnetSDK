@@ -92,19 +92,11 @@ namespace Otsdc
         public string SenderID { get; set; }
 
         // TODO: IsDefault must be updated to return boolean instead of "0" and "1"
-        
+
         /// <summary>
         /// True if this sender ID is the default,otherwise false
         /// </summary>
-        public dynamic IsDefault
-        {
-            get { return _isDefault; }
-            set
-            {
-                _isDefault = value != "0";
-            }
-        }
-        private bool _isDefault;
+        public string IsDefault { get; set; }
     }
 
 

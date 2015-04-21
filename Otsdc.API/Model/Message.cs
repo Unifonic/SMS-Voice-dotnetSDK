@@ -16,11 +16,11 @@ namespace Otsdc
         /// Queued
         /// </summary>
         Queued,
-       /// <summary>
+        /// <summary>
         /// Rejected
         /// </summary>
         Rejected,
-         /// <summary>
+        /// <summary>
         /// Failed , available for advanced plans only
         /// </summary>
         Failed
@@ -83,7 +83,7 @@ namespace Otsdc
         /// Current balance of your account
         /// </summary>
         public decimal Balance { get; set; }
-        
+
         /// <summary>
         /// Date a message was created in
         /// </summary>
@@ -128,26 +128,20 @@ namespace Otsdc
     /// </summary>
     public class SmsMessageStatusResult
     {
-        
+
 
         /// <summary>
         /// Message send status, the possible values are "Queued" , "Sent", "Failed" and "Rejected"
         /// </summary>
         public SmsMessageStatus? Status { get; set; }
 
-        //TODO: dlr value "-" must return as null
-        private DlrStatus? _dlr;
+        //TODO: change dlr to enum
+
         /// <summary>
         /// Message delivery status returned by networks, the possible values are "Delivered" or "Undeliverable", 
         /// and are available for advanced plans
         /// </summary>
-        public dynamic DLR
-        {
-            get { return _dlr; }
-            set {
-                _dlr = value == "-" ? null : value;
-            }
-        }
+        public string DLR { get; set; }
     }
 
     /// <summary>
@@ -224,19 +218,13 @@ namespace Otsdc
         /// Message send status, the possible values are "Queued" , "Sent", "Failed" and "Rejected"
         /// </summary>
         public SmsMessageStatus? Status { get; set; }
-        private DlrStatus? _dlr;
+
+        //TODO: change dlr to enum
         /// <summary>
         /// Message delivery status returned by networks, the possible values are "Delivered" or "Undeliverable", 
         /// and are available for advanced plans
         /// </summary>
-        public dynamic DLR
-        {
-            get { return _dlr; }
-            set
-            {
-                _dlr = value == "-" ? null : value;
-            }
-        }
+        public string DLR { get; set; }
 
         /// <summary>
         /// TODO: We should unify names,either stick with DateCreated or use TimeCreated,prefer DateCreated
