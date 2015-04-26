@@ -2,8 +2,8 @@
 <package >
   <metadata>
     <id>Otsdc</id>
-    <version>1.1.0</version>
-    <title>OTSDotnetSDK</title>
+    <version>1.2.0</version>
+    <title>Otsdc</title>
     <authors>OTS</authors>
     <licenseUrl>https://github.com/otsdc/OTSDotnetSDK/blob/master/LICENSE.txt</licenseUrl>
     <projectUrl>https://github.com/otsdc/OTSDotnetSDK</projectUrl>
@@ -16,7 +16,7 @@
       <dependency id="RestSharp" version="105.0.1" />
     </dependencies>
     <releaseNotes>
-      1.1.0  - Minor release
+      1.2.0  - Minor release
       - Fixed bug causing crash
       - Add support for .Net 4.0
     </releaseNotes>
