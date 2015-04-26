@@ -14,3 +14,6 @@
 /Tests/Otsdc.API.Tests/obj
 /Tests/Otsdc.API.Tests/bin
 *.suo
+/Otsdc.API.Net40/bin/Release
+/Otsdc.API.Net40/obj/Debug
+/Otsdc.API.Net40/obj/Release
