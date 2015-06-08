@@ -12,11 +12,13 @@ namespace Otsdc.Sample
             Console.WriteLine("Call GetBalance");
             var getBalanceresult = orc.GetBalance();
             Console.WriteLine("Balance is:" + getBalanceresult.Balance);
-
+            
+            //The sider ID must be approved by our system
             Console.WriteLine("Call AddSender");
             AddSenderResult addSenderResult = orc.AddSender("test");
             Console.WriteLine("Status of new sender name : " + addSenderResult.Status);
-
+            
+            
             Console.WriteLine("Call GetSenderStatus");
             GetSenderStatusResult getSenders = orc.GetSenderStatus("SenderSMS");
             Console.WriteLine("Status of Sender name 'SenderSMS' : " + getSenders.Status);
@@ -41,11 +43,14 @@ namespace Otsdc.Sample
             orc.ChangeAppDefaultSender("962788888888");
             Console.WriteLine("Default sender name has been changed successfully");
 
+            //The sider ID must be approved by our system
             Console.WriteLine("Call SendMessage");
             var sendSmsMessageResult = orc.SendSmsMessage("962788888888", "Test");
             Console.WriteLine("Message ID: {0} , Cost: {1} {2},Status: {3}", sendSmsMessageResult.MessageID,
-                sendSmsMessageResult.Cost, sendSmsMessageResult.CurrencyCode, sendSmsMessageResult.Status);
+            sendSmsMessageResult.Cost, sendSmsMessageResult.CurrencyCode, sendSmsMessageResult.Status);
 
+            //Sned bulk feature must be added to be used 
+            //Please contact our support team if the feature is not added to your account yet
             Console.WriteLine("Call SendBulkMessages");
             var sendBulkSmsMessagesResult = orc.SendBulkSmsMessages("962788888888,962799999999", "Test");
             Console.WriteLine("Total number of messages: " + sendBulkSmsMessagesResult.Messages.Count);
