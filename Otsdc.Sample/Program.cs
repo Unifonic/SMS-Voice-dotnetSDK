@@ -49,8 +49,6 @@ namespace Otsdc.Sample
             Console.WriteLine("Message ID: {0} , Cost: {1} {2},Status: {3}", sendSmsMessageResult.MessageID,
             sendSmsMessageResult.Cost, sendSmsMessageResult.CurrencyCode, sendSmsMessageResult.Status);
 
-            //Sned bulk feature must be added to be used 
-            //Please contact our support team if the feature is not added to your account yet
             Console.WriteLine("Call SendBulkMessages");
             var sendBulkSmsMessagesResult = orc.SendBulkSmsMessages("962788888888,962799999999", "Test");
             Console.WriteLine("Total number of messages: " + sendBulkSmsMessagesResult.Messages.Count);
