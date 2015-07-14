@@ -13,7 +13,7 @@ namespace Otsdc.Sample
             var getBalanceresult = orc.GetBalance();
             Console.WriteLine("Balance is:" + getBalanceresult.Balance);
             
-            //The sider ID must be approved by our system
+            //Sender ID must be approved by our system before usage
             Console.WriteLine("Call AddSender");
             AddSenderResult addSenderResult = orc.AddSender("test");
             Console.WriteLine("Status of new sender name : " + addSenderResult.Status);
@@ -43,7 +43,7 @@ namespace Otsdc.Sample
             orc.ChangeAppDefaultSender("962788888888");
             Console.WriteLine("Default sender name has been changed successfully");
 
-            //The sider ID must be approved by our system
+            //Sender ID must be approved by our system before usage
             Console.WriteLine("Call SendMessage");
             var sendSmsMessageResult = orc.SendSmsMessage("962788888888", "Test");
             Console.WriteLine("Message ID: {0} , Cost: {1} {2},Status: {3}", sendSmsMessageResult.MessageID,
