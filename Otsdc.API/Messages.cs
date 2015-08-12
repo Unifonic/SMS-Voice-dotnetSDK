@@ -102,6 +102,8 @@ namespace Otsdc
             SmsMessageStatus? status = null,DlrStatus? dlr = null, string country = null, int? limit = null)
         {
             var request = new RestRequest(Method.POST) { Resource = "Messages/GetMessagesDetails" };
+
+            if (messageId.HasValue()) request.AddParameter("MessageID", messageId);
             if (dateFrom.HasValue) request.AddParameter("DateFrom", dateFrom.Value.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture));
             if (dateTo.HasValue) request.AddParameter("DateTo", dateTo.Value.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture));
             if (senderId.HasValue()) request.AddParameter("SenderID", senderId);

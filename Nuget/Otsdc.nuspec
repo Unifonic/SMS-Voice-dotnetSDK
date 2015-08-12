@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Otsdc</id>
-    <version>1.2.0</version>
+    <version>1.2.1</version>
     <title>Otsdc</title>
     <authors>OTS</authors>
     <licenseUrl>https://github.com/otsdc/OTSDotnetSDK/blob/master/LICENSE.txt</licenseUrl>
@@ -13,12 +13,15 @@
     <copyright>Copyright 2015</copyright>
     <tags>sms voice call telephony phone otsdc email</tags>
     <dependencies>
-      <dependency id="RestSharp" version="105.0.1" />
+      <dependency id="RestSharp" version="105.1.0" />
     </dependencies>
     <releaseNotes>
-      1.2.0  - Minor release
-      - Fixed bug causing crash
-      - Add support for .Net 4.0
+	1.2.1 
+		- Fixed bug in GetSmsMessagesDetails to allow query by MessageID
+		- Updated RestSharp to 105.1.0
+	1.2.0  - Minor release
+		- Fixed bug causing crash
+		- Add support for .Net 4.0
     </releaseNotes>
   </metadata>
   <files>

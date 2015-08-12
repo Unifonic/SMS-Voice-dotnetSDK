@@ -229,7 +229,11 @@ namespace Otsdc.API.IntegrationTests
             Assert.IsNotNull(savedRequest);
             Assert.AreEqual("Messages/GetMessagesDetails", savedRequest.Resource);
             Assert.AreEqual(Method.POST, savedRequest.Method);
-            Assert.AreEqual(7, savedRequest.Parameters.Count);
+            Assert.AreEqual(8, savedRequest.Parameters.Count);
+
+            var messageIdParam = savedRequest.Parameters.Find(x => x.Name == "MessageID");
+            Assert.IsNotNull(messageIdParam);
+            Assert.AreEqual(MessageId, messageIdParam.Value);
 
             var dateFromParam = savedRequest.Parameters.Find(x => x.Name == "DateFrom");
             Assert.IsNotNull(dateFromParam);
