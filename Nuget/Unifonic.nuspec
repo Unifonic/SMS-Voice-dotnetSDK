@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Unifonic</id>
+    <version>1.0.0</version>
+    <title>Unifonic</title>
+    <authors>Unifonic</authors>
+    <licenseUrl>https://github.com/Unifonic/SMS-Voice-dotnetSDK/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/Unifonic/SMS-Voice-dotnetSDK</projectUrl>
+    <iconUrl>https://avatars1.githubusercontent.com/u/7256989</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A library for sending sms messages, making calls through Unifonic Platform</description>
+    <copyright>Copyright 2015</copyright>
+    <tags>sms voice call telephony phone unifonic</tags>
+    <dependencies>
+      <dependency id="RestSharp" version="105.2.3" />
+    </dependencies>
+    <releaseNotes>
+      1.0.0
+      - Add support to Two-factor authentication
+      - Add NumberInsight to check the reachability of mobile number
+      - Updated GetBalance to return SharedBalance
+      - Updated SendSMS and BulkSMS to accept a new optional parameter TimeScheduled to schedule messages
+      - Updated SendSMS to accept a new optional parameter Priority
+      - Add GetScheduledMessages and GetScheduledCalls to get a summarized report of scheduled sent messages/calls
+      - Add StopScheduledMessages and StopScheduledCalls to stop scheduled sent messages/calls
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="..\Unifonic.API.Net40\bin\Release\Unifonic.API.dll" target="lib\net40\Unifonic.API.dll" />
+    <file src="..\Unifonic.API.Net40\bin\Release\Unifonic.API.xml" target="lib\net40\Unifonic.API.xml" />
+    <file src="..\Unifonic.API\bin\Release\Unifonic.API.dll" target="lib\net45\Unifonic.API.dll" />
+    <file src="..\Unifonic.API\bin\Release\Unifonic.API.xml" target="lib\net45\Unifonic.API.xml" />
+  </files>
+</package>
