@@ -18,3 +18,14 @@
 /Otsdc.API.Net40/obj/Debug
 /Otsdc.API.Net40/obj/Release
 /packages/RestSharp.105.1.0
+/packages
+/Tests/Unifonic.API.Tests/bin
+/Tests/Unifonic.API.Tests/obj
+/Unifonic.API/bin
+/Unifonic.API/obj
+/Unifonic.API.Net40/bin
+/Unifonic.API.Net40/obj/Debug
+/Unifonic.API.Net40/obj/Release
+/Unifonic.Sample/bin
+/Unifonic.Sample/obj/Debug
+/Unifonic.Sample/obj/Release
