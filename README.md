@@ -4,6 +4,6 @@ A simple HTTP based RESTful API library will enable your apps to send text messa
 
 * [Installation](https://github.com/Unifonic/SMS-Voice-dotnetSDK/wiki/Installation)
 * [Samples](Otsdc.Sample/Program.cs)
-* [Nuget Package](https://www.nuget.org/packages/Otsdc/)
+* [Nuget Package](https://www.nuget.org/packages/Unifonic/)
 * [Contributing Guidelines](Contributing.md)
 * [Rest API Documentation](http://docs.unifonic.apiary.io/)
