@@ -1,6 +1,6 @@
 # How to contribute
 
-Please read these guidelines before contributing to ots-csharp:
+Please read these guidelines before contributing to our SDK:
 
  - [Question or Problem?](#question)
  - [Issues and Bugs](#issue)
@@ -11,8 +11,8 @@ Please read these guidelines before contributing to ots-csharp:
 
 ## <a name="question"></a> Got a Question or Problem?
 
-If you have questions about how to use ots-csharp, please read the
-[samples](Otsdc.Sample/Program.cs) or ask on [Stack Overflow][stackoverflow] with the [ots-csharp][stackoverflow] tag.
+If you have questions about how to use our SDK, please read the
+[samples](Unifonic.Sample/Program.cs) or ask on [Stack Overflow][stackoverflow] with the [unifonic][stackoverflow] tag.
 
 GitHub issues are only for [reporting bugs](#issue) and [feature requests](#feature), not
 questions or help.
@@ -27,7 +27,7 @@ with a fix.
 When submitting an issue please include the following information:
 
 - A description of the issue
-- The classes, and ots-csharp code related to the issue
+- The classes, and our SDK code related to the issue
 - The exception message and stacktrace if an error was thrown
 - If possible, please include code that reproduces the issue. [DropBox][dropbox] or GitHub's
 [Gist][gist] can be used to share large code samples, or you could
@@ -45,8 +45,8 @@ You can request a new feature by submitting an issue to the [GitHub Repository][
 
 When submitting a pull request to the [GitHub Repository][github] make sure to do the following:
 
-- Check that new and updated code follows ots-csharp's existing code formatting and naming standard
-- Run ots-csharp's unit tests to ensure no existing functionality has been affected
+- Check that new and updated code follows SDK's existing code formatting and naming standard
+- Run SDK's unit tests to ensure no existing functionality has been affected
 - Write new unit tests to test your changes. All features and fixed bugs must have tests to verify
 they work
 
@@ -55,7 +55,7 @@ Read [GitHub Help][pullrequesthelp] for more details about creating pull request
 
 ## <a name="cla"></a> Contributor License Agreement
 
-By contributing your code to ots-csharp you grant OTSDC a non-exclusive, irrevocable, worldwide,
+By contributing your code to our SDK you grant Unifonic a non-exclusive, irrevocable, worldwide,
 royalty-free, sublicenseable, transferable license under all of Your relevant intellectual property rights
 (including copyright, patent, and any other rights), to use, copy, prepare derivative works of, distribute and
 publicly perform and display the Contributions on any licensing terms, including without limitation:
@@ -72,15 +72,15 @@ claims, or has the right to claim, any right in any invention or patent related 
 represent that You are not legally obligated, whether by entering into an agreement or otherwise, in any way that
 conflicts with the terms of this license.
 
-OTSDC acknowledges that, except as explicitly described in this Agreement, any Contribution which
+Unifonic acknowledges that, except as explicitly described in this Agreement, any Contribution which
 you provide is on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED,
 INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS
 FOR A PARTICULAR PURPOSE.
 
 
-[github]: https://github.com/otsdc/ots-csharp
-[samples]: http://Otsdc.Sample/Program.cs
-[stackoverflow]: http://stackoverflow.com/questions/tagged/otsdc-csharp
+[github]: https://github.com/Unifonic/SMS-Voice-dotnetSDK
+[samples]: Unifonic.Sample/Program.cs
+[stackoverflow]: http://stackoverflow.com/questions/tagged/unifonic
 [dropbox]: https://www.dropbox.com
 [gist]: https://gist.github.com
 [pullrequesthelp]: https://help.github.com/articles/using-pull-requests
