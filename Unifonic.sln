@@ -23,7 +23,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{832E1C5E
 		Nuget\Unifonic.nuspec = Nuget\Unifonic.nuspec
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unifonic.API.NetStandard2.0", "Unifonic.API.NetStandard2.0\Unifonic.API.NetStandard2.0.csproj", "{CC97112A-E3B8-482E-B560-FD78E7B83D5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unifonic.API.NetStandard2.0", "Unifonic.API.NetStandard2.0\Unifonic.API.NetStandard2.0.csproj", "{CC97112A-E3B8-482E-B560-FD78E7B83D5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unifonic.API.NetStandard.IntegrationTests", "Unifonic.API.NetStandard.IntegrationTests\Unifonic.API.NetStandard.IntegrationTests.csproj", "{2D4E0543-EE1F-4837-AC0E-42D8DDC59EE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{CC97112A-E3B8-482E-B560-FD78E7B83D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC97112A-E3B8-482E-B560-FD78E7B83D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC97112A-E3B8-482E-B560-FD78E7B83D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D4E0543-EE1F-4837-AC0E-42D8DDC59EE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D4E0543-EE1F-4837-AC0E-42D8DDC59EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D4E0543-EE1F-4837-AC0E-42D8DDC59EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D4E0543-EE1F-4837-AC0E-42D8DDC59EE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +64,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{76D0E504-3D5E-4A7A-B85B-ABA7FF0B7699} = {D2A122CE-B60D-4A7C-B670-360818BC0F61}
 		{9650C44D-E3E2-4310-B120-0E86D63D5B9F} = {D895CB54-4F88-4206-85D8-FF64DF36809D}
+		{2D4E0543-EE1F-4837-AC0E-42D8DDC59EE0} = {D895CB54-4F88-4206-85D8-FF64DF36809D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8DF739AA-A4A9-477F-AFA7-24CEC29268EE}
